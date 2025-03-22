@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: reactive
+  r2dbc:
+    url: r2dbc:postgresql://127.0.0.1:5434/reactive-local
+    username: admin
+    password: admin
+server:
+  port: 7080
